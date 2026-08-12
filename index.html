@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hack-o-Week Practice — HTML5 + CSS3</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#form-section">Contact</a></li>
+        <li><a href="#about-section">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Semantic section for the form -->
+    <section id="form-section" aria-labelledby="form-heading">
+      <h1 id="form-heading">Contact Form</h1>
+
+      <form action="#" method="post" novalidate>
+        <div>
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" required
+                 aria-required="true" placeholder="Your name">
+        </div>
+
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required
+                 aria-required="true" placeholder="you@example.com">
+        </div>
+
+        <div>
+          <label for="dob">Date of Birth</label>
+          <input type="date" id="dob" name="dob">
+        </div>
+
+        <div>
+          <label for="topic">Topic</label>
+          <select id="topic" name="topic">
+            <option value="html">HTML5</option>
+            <option value="css">CSS3</option>
+            <option value="both">Both</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4"
+                    placeholder="Write your message..."></textarea>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <!-- Semantic aside for extra info -->
+    <aside id="about-section" aria-labelledby="about-heading">
+      <h2 id="about-heading">About This Page</h2>
+      <p>
+        This page demonstrates HTML5 semantics, an accessible form,
+        Flexbox navigation, a CSS Grid layout, responsive design
+        via media queries, and CSS custom properties (variables).
+      </p>
+    </aside>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Hack-o-Week Practice</p>
+  </footer>
+
+</body>
+</html>

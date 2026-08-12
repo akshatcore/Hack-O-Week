@@ -1,0 +1,31 @@
+/* Week 6 Array/Object method demo */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f8fafc;
+  color: #111827;
+}
+header,
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+header {
+  text-align: center;
+}
+#students {
+  background: white;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+}
+.student-card {
+  border: 1px solid #e5e7eb;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 12px;
+}
+.student-card:last-child {
+  margin-bottom: 0;
+}

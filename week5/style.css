@@ -1,0 +1,22 @@
+/* Week 5 JavaScript basics page */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #eef2ff;
+  color: #111827;
+}
+header,
+main {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+header {
+  text-align: center;
+}
+#output {
+  background: white;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.08);
+}

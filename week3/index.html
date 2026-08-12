@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Week 3 - HTML Semantics and Accessibility</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Week 3 - HTML5 Semantics and Accessibility</h1>
+    <p>Learn forms, semantic elements, and accessibility basics.</p>
+  </header>
+  <main>
+    <section>
+      <h2>Contact form</h2>
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+        <fieldset>
+          <legend>Choose your interests</legend>
+          <label><input type="checkbox" name="interest" value="html"> HTML5</label>
+          <label><input type="checkbox" name="interest" value="css"> CSS3</label>
+          <label><input type="checkbox" name="interest" value="accessibility"> Accessibility</label>
+        </fieldset>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write your message"></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Accessibility notes</h2>
+      <p>Use semantic HTML, labels, and landmarks to improve accessibility for screen readers and keyboard users.</p>
+    </section>
+  </main>
+  <footer>
+    <p>Week 3 Hack O Week</p>
+  </footer>
+</body>
+</html>
