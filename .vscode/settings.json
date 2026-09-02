@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^cd d:\\\\Hack-O-Week\\\\week9 ; node errorHandling\\.js$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
